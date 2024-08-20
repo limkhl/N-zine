@@ -18,10 +18,18 @@ const { activeNav } = Astro.props;
         {
           LOGO_IMAGE.enable ? (
             <img
-              src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
+              src={`/assets/logo-light.svg`}
               alt={SITE.title}
               width={LOGO_IMAGE.width}
               height={LOGO_IMAGE.height}
+              id="logo-light"
+            />
+            <img
+              src={`/assets/logo-dark.svg`}
+              alt={SITE.title}
+              width={LOGO_IMAGE.width}
+              height={LOGO_IMAGE.height}
+              id="logo-dark"
             />
           ) : (
             SITE.title
@@ -119,6 +127,9 @@ const { activeNav } = Astro.props;
 <style>
   #skip-to-content {
     @apply absolute -top-full left-16 z-50 bg-skin-accent px-3 py-2 text-skin-inverted transition-all focus:top-4;
+  }
+  #logo {
+    @apply fill-skin-accent;
   }
   .nav-container {
     @apply mx-auto flex max-w-3xl flex-col items-center justify-between sm:flex-row;
