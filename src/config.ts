@@ -2,11 +2,10 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://n-zine.vercel.app/",
-  author: "임경희",
+  author: "limkhl",
   profile: "https://github.com/limkhl",
   desc: "쓰는 사람이 되기 위해 시작한 zine 프로젝트",
   title: "N-zine",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 10,
