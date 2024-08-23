@@ -1,5 +1,5 @@
 ---
-author: 임경희
+author: limkhl
 pubDatetime: 2022-07-04T03:05:53Z
 title: 신입 FE 개발자의 상반기 회고
 slug: 신입 FE 개발자의 상반기 회고
