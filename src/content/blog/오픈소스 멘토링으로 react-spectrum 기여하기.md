@@ -1,6 +1,6 @@
 ---
 author: limkhl
-pubDatetime: 2024-11-10T10:36:00Z
+pubDatetime: 2024-11-10T22:36:00Z
 title: "오픈소스 멘토링으로 react-spectrum 기여하기"
 slug: opensource-contribution-to-react-spectrum
 featured: true
