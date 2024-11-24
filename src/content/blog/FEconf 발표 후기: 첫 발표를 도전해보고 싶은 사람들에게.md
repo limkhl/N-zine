@@ -1,6 +1,6 @@
 ---
 author: limkhl
-pubDatetime: 2024-10-13T20:19:00Z
+pubDatetime: 2024-10-13T11:19:00+09:00
 title: "FEconf 발표 후기: 첫 발표를 도전해보고 싶은 사람들에게"
 slug: FEconf-발표-후기
 featured: true

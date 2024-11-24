@@ -1,6 +1,6 @@
 ---
 author: limkhl
-pubDatetime: 2022-07-04T03:05:53Z
+pubDatetime: 2022-07-04T03:05:53+09:00
 title: 신입 FE 개발자의 상반기 회고
 slug: 신입 FE 개발자의 상반기 회고
 featured: true
