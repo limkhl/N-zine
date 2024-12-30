@@ -2,6 +2,7 @@
 import { LOCALE, SITE } from "@config";
 import "@styles/base.css";
 import { ViewTransitions } from "astro:transitions";
+import { GTAG_ID } from "astro:env/client"
 
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
@@ -132,6 +133,16 @@ const structuredData = {
     <ViewTransitions />
 
     <script is:inline src="/toggle-theme.js"></script>
+
+    <!-- Google Analytics -->
+    <script type="text/partytown" async src={`https://www.googletagmanager.com/gtag/js?id=${GTAG_ID}`}></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', {GTAG_ID});
+    </script>
   </head>
   <body>
     <slot />
