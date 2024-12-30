@@ -1,4 +1,5 @@
 import type { Site, SocialObjects } from "./types";
+import type { GiscusProps } from "@giscus/react";
 
 export const SITE: Site = {
   website: "https://n-zine.vercel.app/",
@@ -62,3 +63,16 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
 ];
+
+export const GISCUS: GiscusProps = {
+  repo: "limkhl/N-zine",
+  repoId: "R_kgDOMlfMhQ",
+  category: "General",
+  categoryId: "DIC_kwDOMlfMhc4ClnDg",
+  mapping: "pathname",
+  reactionsEnabled: "1",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "ko",
+  loading: "lazy",
+};
